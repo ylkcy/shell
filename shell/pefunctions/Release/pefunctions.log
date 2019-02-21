@@ -1,0 +1,21 @@
+﻿  decoder.c
+  distorm.c
+  instructions.c
+  insts.c
+  mnemonics.c
+  operands.c
+  prefix.c
+distorm\prefix.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  textdefs.c
+  wstring.c
+  pefunctions.cpp
+pefunctions.cpp(60): warning C4244: “初始化”: 从“uint64_t”转换到“int”，可能丢失数据
+pefunctions.cpp(56): warning C4101: “next”: 未引用的局部变量
+pefunctions.cpp(112): warning C4244: “初始化”: 从“_OffsetType”转换到“uint32_t”，可能丢失数据
+pefunctions.cpp(133): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+  正在生成代码
+  All 56 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  pefunctions.vcxproj -> C:\工作\shell\shell\Release\pefunctions.exe
+  pefunctions.vcxproj -> C:\工作\shell\shell\Release\pefunctions.pdb (Full PDB)

@@ -1,0 +1,8 @@
+﻿  htable.cpp
+htable.cpp(240): warning C4302: “类型转换”: 从“void *”到“uint16_t”截断
+  libpe.cpp
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\dbghelp.h(1540): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\dbghelp.h(3056): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+libpe.cpp(471): warning C4477: “sprintf_s”: 格式字符串“%08X”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“uint8_t *”
+  llist.cpp
+  libpe.vcxproj -> C:\工作\shell\shell\Release\libpe.lib

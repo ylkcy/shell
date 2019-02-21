@@ -1,0 +1,123 @@
+﻿生成启动时间为 2019/1/14 9:07:18。
+     1>项目“D:\shell\shell\shell\shell.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D NOMINMAX /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AES.cpp CheckSum.cpp DLLLoader.cpp ZlibSdk.cpp
+         AES.cpp
+     1>D:\shell\shell\include\botan/exceptn.h(26): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“Botan::Invalid_State”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(166) : 参见“std::runtime_error”的声明
+                 D:\shell\shell\include\botan/exceptn.h(25) : 参见“Botan::Invalid_State”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(36): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“Botan::Lookup_Error”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(166) : 参见“std::runtime_error”的声明
+                 D:\shell\shell\include\botan/exceptn.h(35) : 参见“Botan::Lookup_Error”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(46): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“Botan::Internal_Error”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(166) : 参见“std::runtime_error”的声明
+                 D:\shell\shell\include\botan/exceptn.h(45) : 参见“Botan::Internal_Error”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(56): warning C4275: 非 dll 接口 class“std::invalid_argument”用作 dll 接口 struct“Botan::Invalid_Key_Length”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(82) : 参见“std::invalid_argument”的声明
+                 D:\shell\shell\include\botan/exceptn.h(55) : 参见“Botan::Invalid_Key_Length”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(67): warning C4275: 非 dll 接口 class“std::invalid_argument”用作 dll 接口 struct“Botan::Invalid_Block_Size”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(82) : 参见“std::invalid_argument”的声明
+                 D:\shell\shell\include\botan/exceptn.h(66) : 参见“Botan::Invalid_Block_Size”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(79): warning C4275: 非 dll 接口 class“std::invalid_argument”用作 dll 接口 struct“Botan::Invalid_IV_Length”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(82) : 参见“std::invalid_argument”的声明
+                 D:\shell\shell\include\botan/exceptn.h(78) : 参见“Botan::Invalid_IV_Length”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(120): warning C4275: 非 dll 接口 class“std::invalid_argument”用作 dll 接口 struct“Botan::Invalid_Algorithm_Name”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(82) : 参见“std::invalid_argument”的声明
+                 D:\shell\shell\include\botan/exceptn.h(119) : 参见“Botan::Invalid_Algorithm_Name”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(130): warning C4275: 非 dll 接口 class“std::invalid_argument”用作 dll 接口 struct“Botan::Encoding_Error”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(82) : 参见“std::invalid_argument”的声明
+                 D:\shell\shell\include\botan/exceptn.h(129) : 参见“Botan::Encoding_Error”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(139): warning C4275: 非 dll 接口 class“std::invalid_argument”用作 dll 接口 struct“Botan::Decoding_Error”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(82) : 参见“std::invalid_argument”的声明
+                 D:\shell\shell\include\botan/exceptn.h(138) : 参见“Botan::Decoding_Error”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(148): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“Botan::Integrity_Failure”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(166) : 参见“std::runtime_error”的声明
+                 D:\shell\shell\include\botan/exceptn.h(147) : 参见“Botan::Integrity_Failure”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(166): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“Botan::Stream_IO_Error”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(166) : 参见“std::runtime_error”的声明
+                 D:\shell\shell\include\botan/exceptn.h(165) : 参见“Botan::Stream_IO_Error”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(186): warning C4275: 非 dll 接口 class“std::bad_alloc”用作 dll 接口 struct“Botan::Memory_Exhaustion”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception(358) : 参见“std::bad_alloc”的声明
+                 D:\shell\shell\include\botan/exceptn.h(185) : 参见“Botan::Memory_Exhaustion”的声明
+     1>D:\shell\shell\include\botan/bigint.h(44): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“Botan::BigInt::DivideByZero”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(166) : 参见“std::runtime_error”的声明
+                 D:\shell\shell\include\botan/bigint.h(43) : 参见“Botan::BigInt::DivideByZero”的声明
+     1>D:\shell\shell\include\botan/pipe.h(38): warning C4275: 非 dll 接口 class“std::invalid_argument”用作 dll 接口 struct“Botan::Pipe::Invalid_Message_Number”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(82) : 参见“std::invalid_argument”的声明
+                 D:\shell\shell\include\botan/pipe.h(37) : 参见“Botan::Pipe::Invalid_Message_Number”的声明
+     1>AES.cpp(19): warning C4101: “e”: 未引用的局部变量
+     1>AES.cpp(42): warning C4101: “e”: 未引用的局部变量
+         CheckSum.cpp
+     1>CheckSum.cpp(24): warning C4018: “<”: 有符号/无符号不匹配
+         DLLLoader.cpp
+     1>d:\shell\shell\shell\log.h(28): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : 参见“localtime”的声明
+     1>d:\shell\shell\shell\log.h(32): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(337) : 参见“vsnprintf”的声明
+     1>d:\shell\shell\shell\log.h(35): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(26): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“Botan::Invalid_State”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(166) : 参见“std::runtime_error”的声明
+                 D:\shell\shell\include\botan/exceptn.h(25) : 参见“Botan::Invalid_State”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(36): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“Botan::Lookup_Error”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(166) : 参见“std::runtime_error”的声明
+                 D:\shell\shell\include\botan/exceptn.h(35) : 参见“Botan::Lookup_Error”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(46): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“Botan::Internal_Error”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(166) : 参见“std::runtime_error”的声明
+                 D:\shell\shell\include\botan/exceptn.h(45) : 参见“Botan::Internal_Error”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(56): warning C4275: 非 dll 接口 class“std::invalid_argument”用作 dll 接口 struct“Botan::Invalid_Key_Length”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(82) : 参见“std::invalid_argument”的声明
+                 D:\shell\shell\include\botan/exceptn.h(55) : 参见“Botan::Invalid_Key_Length”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(67): warning C4275: 非 dll 接口 class“std::invalid_argument”用作 dll 接口 struct“Botan::Invalid_Block_Size”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(82) : 参见“std::invalid_argument”的声明
+                 D:\shell\shell\include\botan/exceptn.h(66) : 参见“Botan::Invalid_Block_Size”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(79): warning C4275: 非 dll 接口 class“std::invalid_argument”用作 dll 接口 struct“Botan::Invalid_IV_Length”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(82) : 参见“std::invalid_argument”的声明
+                 D:\shell\shell\include\botan/exceptn.h(78) : 参见“Botan::Invalid_IV_Length”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(120): warning C4275: 非 dll 接口 class“std::invalid_argument”用作 dll 接口 struct“Botan::Invalid_Algorithm_Name”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(82) : 参见“std::invalid_argument”的声明
+                 D:\shell\shell\include\botan/exceptn.h(119) : 参见“Botan::Invalid_Algorithm_Name”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(130): warning C4275: 非 dll 接口 class“std::invalid_argument”用作 dll 接口 struct“Botan::Encoding_Error”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(82) : 参见“std::invalid_argument”的声明
+                 D:\shell\shell\include\botan/exceptn.h(129) : 参见“Botan::Encoding_Error”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(139): warning C4275: 非 dll 接口 class“std::invalid_argument”用作 dll 接口 struct“Botan::Decoding_Error”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(82) : 参见“std::invalid_argument”的声明
+                 D:\shell\shell\include\botan/exceptn.h(138) : 参见“Botan::Decoding_Error”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(148): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“Botan::Integrity_Failure”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(166) : 参见“std::runtime_error”的声明
+                 D:\shell\shell\include\botan/exceptn.h(147) : 参见“Botan::Integrity_Failure”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(166): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“Botan::Stream_IO_Error”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(166) : 参见“std::runtime_error”的声明
+                 D:\shell\shell\include\botan/exceptn.h(165) : 参见“Botan::Stream_IO_Error”的声明
+     1>D:\shell\shell\include\botan/exceptn.h(186): warning C4275: 非 dll 接口 class“std::bad_alloc”用作 dll 接口 struct“Botan::Memory_Exhaustion”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception(358) : 参见“std::bad_alloc”的声明
+                 D:\shell\shell\include\botan/exceptn.h(185) : 参见“Botan::Memory_Exhaustion”的声明
+     1>D:\shell\shell\include\botan/bigint.h(44): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“Botan::BigInt::DivideByZero”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(166) : 参见“std::runtime_error”的声明
+                 D:\shell\shell\include\botan/bigint.h(43) : 参见“Botan::BigInt::DivideByZero”的声明
+     1>D:\shell\shell\include\botan/pipe.h(38): warning C4275: 非 dll 接口 class“std::invalid_argument”用作 dll 接口 struct“Botan::Pipe::Invalid_Message_Number”的基
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept(82) : 参见“std::invalid_argument”的声明
+                 D:\shell\shell\include\botan/pipe.h(37) : 参见“Botan::Pipe::Invalid_Message_Number”的声明
+     1>DLLLoader.cpp(420): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>DLLLoader.cpp(473): warning C4018: “<”: 有符号/无符号不匹配
+     1>DLLLoader.cpp(525): warning C4244: “初始化”: 从“DWORD”转换到“WORD”，可能丢失数据
+         ZlibSdk.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\shell.res" shell.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\shell\shell\Release\shell.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../Release/lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib zlibwapi.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib botan.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"shell.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\shell\shell\Release\shell.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\shell\shell\Release\shell.lib" /MACHINE:X86 /SAFESEH /DLL Release\shell.res
+         Release\AES.obj
+         Release\CheckSum.obj
+         Release\DLLLoader.obj
+         Release\ZlibSdk.obj
+         ntdll.lib
+            正在创建库 D:\shell\shell\Release\shell.lib 和对象 D:\shell\shell\Release\shell.exp
+         正在生成代码
+         已完成代码的生成
+         shell.vcxproj -> D:\shell\shell\Release\shell.dll
+     1>已完成生成项目“D:\shell\shell\shell\shell.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.51

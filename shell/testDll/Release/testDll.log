@@ -1,0 +1,7 @@
+﻿  testDll.cpp
+    正在创建库 C:\工作\shell\shell\Release\testDll.lib 和对象 C:\工作\shell\shell\Release\testDll.exp
+  正在生成代码
+  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  testDll.vcxproj -> C:\工作\shell\shell\Release\testDll.dll
+  testDll.vcxproj -> C:\工作\shell\shell\Release\testDll.pdb (Full PDB)

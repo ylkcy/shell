@@ -1,0 +1,7 @@
+LIBRARY        "shell"
+
+EXPORTS
+    DLLMemLoad @1 
+    DLLMemFree @2
+    GetProcAddressByName @3
+    GetProcAddressByOrindal @4
